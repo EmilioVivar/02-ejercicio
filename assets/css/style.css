@@ -1,0 +1,56 @@
+
+
+   body{
+       margin: 0 auto;
+   }
+   header{
+       background-color: #0055b7;
+       height: 120px;
+   }
+   .container{
+       margin: 0 auto;
+       width: 1140px;
+
+   }
+   .row{
+       display: flex;
+   }
+   .logo{
+       width: 15%;
+       height: 120px;
+
+   }
+   .menu-principal{
+       width: 60%;
+       height: 120px;
+       background-color: rgba(0, 255, 255, 0);
+   }
+   .logos-inst{
+       width: 25%;
+       height: 120px;
+
+   }
+   .logo-principal{
+       margin-top: 24px;
+       margin-left: 8px;
+
+   }
+   .logo-secundario{
+       margin-top: 30px;
+   }
+   .menu-nav{
+       float: right;
+   }
+   .menu-nav > ul{
+       list-style-type: none;
+       overflow: hidden;
+
+   }
+   .menu-nav > ul >li{
+       float: left;
+       padding: 30px ;
+   }
+   .menu-nav > ul >li > a{
+       text-decoration: none;
+       color: #ffffff;
+   }
